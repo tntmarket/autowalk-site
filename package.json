@@ -1,10 +1,14 @@
 {
   "name": "autowalk",
+  "description": "Autowalk's website",
   "version": "0.0.1",
   "dependencies": {
     "express": "*",
     "jade": "*",
-    "stylus": "*",
-    "nib": "*"
+    "stylus": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tntmarket/autowalk-site"
   }
 }
