@@ -1,0 +1,49 @@
+body
+   font-size 18px
+
+header
+   font-family 'Roboto Slab', serif;
+   padding 10px 24px 12px 24px
+   font-size 32px
+   background-color #9bde83
+   color #283a26
+
+button.yes
+   background-color #9bde83
+   border-color #9bde83
+   &:hover
+      background-color #8cd470
+      border-color #8cd470
+   &:active
+      background-color #84c969
+      border-color #84c969
+
+
+.why
+   & [class^="icon-"]
+      font-size 30px
+   & .reason
+      font-weight 300
+      font-size 24px
+   & p
+      font-size 15px
+   & .columns
+      padding 0 43px
+   margin-bottom 40px
+
+.team
+   & [class^="icon-"]
+      font-size 64px
+   & p
+      font-size 15px
+
+.pre
+   white-space pre
+
+.pitch
+   margin-top 50px
+   margin-bottom 30px
+   font-size 24px
+
+.center
+   text-align center
