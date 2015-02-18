@@ -32,8 +32,8 @@ button.yes
    margin-bottom 40px
 
 .team
-   & [class^="icon-"]
-      font-size 64px
+   & img
+      text-align center
    & p
       font-size 15px
 
