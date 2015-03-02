@@ -21,7 +21,12 @@ html(lang="en")
     .container
 
       .row.pitch
-        img.six.columns(src="img/brace.png")
+        video.six.columns(
+          src="img/pitch.mp4",
+          poster="img/brace.png"
+          controls
+        )
+          img(src="img/brace.png")
         .six.columns
           h1 Reclaim freedom
           p.
