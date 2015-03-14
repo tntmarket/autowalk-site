@@ -29,13 +29,23 @@ button.yes
       font-size 15px
    & .columns
       padding 0 43px
-   margin-bottom 40px
+   margin-bottom 30px
+
+.design
+   margin-bottom 30px
+   & .detail
+      font-size 20px
+      margin-bottom 20px
+      & .item
+         font-size 16px
+
 
 .team
    & img
       text-align center
    & p
       font-size 15px
+
 
 .pre
    white-space pre
@@ -47,3 +57,6 @@ button.yes
 
 .center
    text-align center
+
+.align-right
+   text-align right

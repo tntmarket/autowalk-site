@@ -1,75 +1,136 @@
 doctype html
 html(lang="en")
-  head
-    title Autowalk - The knee brace that walks for you
-    link(
-      href="//fonts.googleapis.com/css?family=Raleway:400,300,600",
-      rel="stylesheet",
-      type="text/css"
-    )
-    link(
-      href="//fonts.googleapis.com/css?family=Roboto+Slab:300",
-      rel="stylesheet",
-      type="text/css"
-    )
-    link(href="vendor/normalize.css", rel="stylesheet")
-    link(href="vendor/skeleton.css", rel="stylesheet")
-    link(href="vendor/icon.css", rel="stylesheet")
-    link(href="index.css", rel="stylesheet")
-  body
-    header Autowalk
-    .container
+   head
+      title Autowalk - The knee brace that walks for you
+      link(
+         href="//fonts.googleapis.com/css?family=Raleway:400,300,600",
+         rel="stylesheet",
+         type="text/css"
+      )
+      link(
+         href="//fonts.googleapis.com/css?family=Roboto+Slab:300",
+         rel="stylesheet",
+         type="text/css"
+      )
+      link(href="vendor/normalize.css", rel="stylesheet")
+      link(href="vendor/skeleton.css", rel="stylesheet")
+      link(href="vendor/icon.css", rel="stylesheet")
+      link(href="index.css", rel="stylesheet")
+   body
+      header Autowalk
+      .container
 
-      .row.pitch
-        video.six.columns(
-          src="img/pitch.mp4",
-          poster="img/brace.png"
-          controls
-        )
-          img(src="img/brace.png")
-        .six.columns
-          h1 Reclaim freedom
-          p.
-            Want to walk? Our knee brace can do that for you.
-          button.yes Yes
+         .row.pitch
+            video.six.columns(
+               src="img/pitch.mp4",
+               poster="img/brace.png",
+               controls,
+               alt="Introduction video",
+               title="Introduction video"
+            )
+               img(
+                  src="img/brace.png",
+                  alt="Knee brace CAD model",
+                  title="Knee brace CAD model"
+               )
+            .six.columns
+               h1 Reclaim freedom
+               p.
+                  Want to walk? Our knee brace can do that for you.
+               button.yes Coming Soon
 
-      .why.center
-         .row
-           .four.columns
-             span.icon-light-bulb
-             .reason Smart
-             p.
-               Equip it and go. Autowalk figures out how you
-               walk and when to stop.
-           .four.columns
-             span.icon-circle
-             .reason Convenient
-             p.
-               Forget it exists. Autowalk is light, unobtrusive, and
-               easy to put on and take off.
-           .four.columns
-             span.icon-heart
-             .reason Healing
-             p.
-               Gradually rehabilitate yourself. Adjust how much
-               assistance Autowalk gives.
+         .why.center
+            .row
+               .four.columns
+                  span.icon-light-bulb
+                  .reason Smart
+                  p.
+                     Equip it and go. Autowalk figures out how you
+                     walk and when to stop.
+               .four.columns
+                  span.icon-circle
+                  .reason Convenient
+                  p.
+                     Forget it exists. Autowalk is light, unobtrusive, and
+                     easy to put on and take off.
+               .four.columns
+                  span.icon-heart
+                  .reason Healing
+                  p.
+                     Gradually rehabilitate yourself. Adjust how much
+                     assistance Autowalk gives.
 
-      .team.center
-        h4 The Team
-        .row
-          img(src="img/team.jpg")
-        .row
-          .three.columns
-             .name Dhrumil Parikh
-             p Mechanical
-          .three.columns
-             .name Mark Vandermeulen
-             p Electric, Controls
-          .three.columns
-            .name Danson Garcia
-            p Electric
-          .three.columns
-            .name Dave Lu
-            p Software
+         .problem
+            h3.center Problem
+            .row
+               .eight.columns
+                  p.
+                     Some people can't straighten their leg. They walk
+                     abnormally to compensate. This fatigues, reduces
+                     speed, and strains the quadriceps.
+                  p.
+                     This condition (Knee Flexion Contracture)
+                     is caused by arthritis, paralysis,
+                     stiff knee tissues, or muscle weakness.
+                     It afflicts 8% at 79 years.
+                  p.
+                     One solution is therapy, but this is time consuming.
+                     Another is locking knee braces, but this reduces
+                     mobility in other ways. A system is needed to extend
+                     the leg while walking.
+               img.four.columns(
+                  src="img/knee.png",
+                  alt="Comparison of healthy and unhealthy leg extension",
+                  title="Comparison of healthy and unhealthy leg extension"
+               )
+
+         .design.center
+            h3 Solution
+            .row
+               img.six.columns(
+                  src="img/system.png",
+                  alt="Summary of subsystems in the design",
+                  title="Summary of subsystems in the design"
+               )
+               .six.columns.align-right
+                  p.
+                     Our solution is a mechanized knee brace. It senses
+                     leg position to figure out when and how you want to walk.
+                     A motor straightens the leg accordingly.
+
+                  .detail Specifications
+                     .item Battery Life - 8 hours of walking at 1 step/s
+                     .item Prototype Cost - $500
+                     .item Weight - 5 lbs
+
+                  .detail Parts
+                     .item Sensors - Inertial measurement units on thigh and shin
+                     .item Processor - ARM&#9415; Cortex&#8482;-M3
+                     .item Actuator - Servo motor
+                     .item Material - Carbon fibre
+                     .item Battery - LiPo pack
+
+
+         .team.center
+            h3 The Team
+            .row
+               img(
+                  src="img/team.jpg",
+                  alt="Photo of team",
+                  title="Photo of team"
+               )
+            .row
+               .three.columns
+                  .name Dhrumil Parikh
+                  p Mechanical
+               .three.columns
+                  .name Mark Vandermeulen
+                  p Electric, Controls
+               .three.columns
+                  .name Danson Garcia
+                  p Electric
+               .three.columns
+                  .name Dave Lu
+                  p Software
 
 
